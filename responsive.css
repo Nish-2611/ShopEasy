@@ -59,23 +59,23 @@
     }
 
     .subscribe-details h3{
-        font-size: 0.4rem;
+        font-size: 0.6rem;
     }
 
     .subscribe-input{
-        width: 110px;
-    height: 15px;
+        width: 130px;
+    height: 18px;
     }
   
     .subscribe-input input{
-        width: 73px;
-        height: 15px;
+        width: 92px;
+        height: 18px;
         font-size: 0.3rem;
     }
 
 
     .subscribe-input button{
-        height: 13px;
+        height: 14px;
         width: 35px;
         font-size: 0.3rem;
     }
