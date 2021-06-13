@@ -1,0 +1,82 @@
+
+@media(max-width:720px)
+{
+
+    /*********NAVBAR********/
+    .utility-menu{
+        display: inline;
+    }
+
+    .navbar .links{
+        display: none;
+    }
+    /*********SUBSCRIBE SECTION********/
+
+    .subscribe{
+        height: 120px;
+    }
+
+    .subscribe-image img{
+        width: 9rem;
+    }
+
+    .subscribe-details h3{
+        font-size: 0.6rem;
+    }
+
+    .subscribe-input{
+        width: 150px;
+    height: 20px;
+    }
+  
+    .subscribe-input input{
+        width: 110px;
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+
+    .subscribe-input button{
+        height: 18px;
+        width: 50px;
+        font-size: 0.5rem;
+    }
+}
+
+
+@media(max-width:480px)
+{
+   
+
+    /*********SUBSCRIBE SECTION********/
+
+    .subscribe{
+        height: 90px;
+    }
+
+    .subscribe-image img{
+        width: 7rem;
+    }
+
+    .subscribe-details h3{
+        font-size: 0.4rem;
+    }
+
+    .subscribe-input{
+        width: 110px;
+    height: 15px;
+    }
+  
+    .subscribe-input input{
+        width: 73px;
+        height: 15px;
+        font-size: 0.3rem;
+    }
+
+
+    .subscribe-input button{
+        height: 13px;
+        width: 35px;
+        font-size: 0.3rem;
+    }
+}
