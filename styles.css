@@ -674,23 +674,22 @@ color:#14B8A6;
 
 /**********Sign up menu*******/
 .menu-container{
+    position: fixed;
+    top: 0;
     display:none;
     width: min(100%,1000px);
     height: 100vh;
-    position: absolute;
-    top: 0;
     
     
 }
 
 .menu-container-active{
+    
     display: flex;
     align-items: center;
     justify-content: center;
     width: min(100%,1000px);
     height: 100vh;
-    position: absolute;
-    top: 0;
 }
 .signup-menu{
     width: 350px;
