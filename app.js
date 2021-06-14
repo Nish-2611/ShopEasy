@@ -7,6 +7,21 @@ var user_Button=document.getElementsByClassName("fas fa-user")[0];
 var user_Menu_Container=document.getElementsByClassName("menu-container")[0];
 var cross_Button_signup=document.getElementsByClassName("fas fa-times")[2];
 var container_Wrapper=document.getElementsByClassName("container-wrapper")[0];
+
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
+  });
+
 function eventhandler(){
 menu.classList.add("active-menu");
 }

@@ -41,6 +41,13 @@
         width: 50px;
         font-size: 0.5rem;
     }
+
+    /*******SLIDER**********/
+    .swiper-container {
+        width:min(100%,1050px);
+        height: 200px;
+        margin-top: 1rem;
+      }
 }
 
 
@@ -79,4 +86,11 @@
         width: 35px;
         font-size: 0.3rem;
     }
+
+    /*******SLIDER**********/
+    .swiper-container {
+        width:min(100%,1050px);
+        height: 100px;
+        margin-top: 1rem;
+      }
 }
